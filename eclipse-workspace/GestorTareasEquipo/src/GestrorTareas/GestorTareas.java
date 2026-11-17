@@ -6,7 +6,7 @@ public class GestorTareas {
 	static ArrayList<String> tareas = new ArrayList<>();
 
 	public static void main(String[] args) {
-		System.out.println("Gestor de tareas - versión A");
+		System.out.println("Gestor de tareas - versión B");
 	}
 
 	public static void listarTareas() {
