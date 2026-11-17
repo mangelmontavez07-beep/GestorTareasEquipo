@@ -16,6 +16,9 @@ public class GestorTareas {
 		}
 		for (int i = 0; i < tareas.size(); i++) {
 			System.out.println((i + 1) + ". " + tareas.get(i));
+	public static void agregarTarea(String descripcion) {
+		if (descripcion != null && !descripcion.isBlank()) {
+			tareas.add(descripcion);
 		}
 	}
 }
